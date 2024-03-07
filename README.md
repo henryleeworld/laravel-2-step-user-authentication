@@ -27,8 +27,8 @@ $ php artisan migrate
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/5AJiZ5d.png)
+![](https://i.imgur.com/DK53ElR.png)
 > 將驗證碼傳送到您的電子郵件
 
-![](https://i.imgur.com/5AJiZ5d.png)
+![](https://i.imgur.com/r7vHxOE.png)
 > 輸入正確的驗證碼方可進入服務
