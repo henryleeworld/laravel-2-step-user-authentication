@@ -3,6 +3,10 @@
 
 // Variables
 @import 'variables';
+@import "mixins";
+@import "animations";
+@import "modals";
+@import "verification";
 
 // Bootstrap
 @import 'bootstrap/scss/bootstrap';

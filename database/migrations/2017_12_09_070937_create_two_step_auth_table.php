@@ -9,10 +9,8 @@ return new class extends Migration
 {
     /**
      * Run the migrations.
-     *
-     * @return void
      */
-    public function up()
+    public function up(): void
     {
         $twoStepAuth = new TwoStepAuth();
         $connection = $twoStepAuth->getConnectionName();
@@ -39,10 +37,8 @@ return new class extends Migration
 
     /**
      * Reverse the migrations.
-     *
-     * @return void
      */
-    public function down()
+    public function down(): void
     {
         $twoStepAuth = new TwoStepAuth();
         $connection = $twoStepAuth->getConnectionName();

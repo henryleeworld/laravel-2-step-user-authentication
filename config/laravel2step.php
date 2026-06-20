@@ -17,7 +17,7 @@ return [
     */
 
     'laravel2stepDatabaseConnection'  => env('LARAVEL_2STEP_DATABASE_CONNECTION', 'mysql'),
-    'laravel2stepDatabaseTable'       => env('LARAVEL_2STEP_DATABASE_TABLE', 'two_step_authentication'),
+    'laravel2stepDatabaseTable'       => env('LARAVEL_2STEP_DATABASE_TABLE', 'two_step_authentications'),
 
     /*
     |--------------------------------------------------------------------------

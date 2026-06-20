@@ -1,4 +1,4 @@
-# Laravel 10 兩步驟使用者認證
+# Laravel 12 兩步驟使用者認證
 
 引入 jeremykenedy 的 laravel2step 套件來擴增兩步驟使用者認證，除了要輸入密碼，還必須完成另一個簡單的步驟，以完成身分驗證程序。
 
@@ -20,6 +20,18 @@ $ php artisan key:generate
 ```sh
 $ php artisan migrate
 ```
+- 執行安裝 Vite 和 Laravel 擴充套件引用的依賴項目。
+```sh
+$ npm install
+```
+- 執行正式環境版本化資源管道並編譯。
+```sh
+$ npm run build
+```
+- 執行 __Artisan__ 指令的 __queue:work__ 來處理被推送進隊列內的新任務。
+```sh
+$ php artisan queue:work
+```
 - 在瀏覽器中輸入已定義的路由 URL 來訪問，例如：http://127.0.0.1:8000。
 - 你可以經由 `/register` 來進行註冊。
 - 完成註冊後，可以經由 `/login` 來進行登入。
@@ -27,8 +39,8 @@ $ php artisan migrate
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/DK53ElR.png)
+![](https://i.imgur.com/om0LWDX.png)
 > 將驗證碼傳送到您的電子郵件
 
-![](https://i.imgur.com/r7vHxOE.png)
+![](https://i.imgur.com/omrOIpZ.png)
 > 輸入正確的驗證碼方可進入服務
